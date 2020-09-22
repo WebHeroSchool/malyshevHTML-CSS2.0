@@ -17,14 +17,16 @@ body {
   display: none;
 }
 
-.logo, .logo-mobile {
+.logo,
+.logo-mobile {
   position: relative;
   padding: 40px 0;
   padding-left: 44px;
   font: 24px/32px pt_serifbold, arial, helvetica, sans-serif;
 }
 
-.logo__circle, .logo-mobile__circle {
+.logo__circle,
+.logo-mobile__circle {
   position: absolute;
   left: 0;
   top: 50%;
@@ -35,11 +37,13 @@ body {
   opacity: .7;
 }
 
-.logo__circle_color_dark-blue, .logo-mobile__circle_color_dark-blue {
+.logo__circle_color_dark-blue,
+.logo-mobile__circle_color_dark-blue {
   background: #0056ec;
 }
 
-.logo__circle_color_blue, .logo-mobile__circle_color_blue {
+.logo__circle_color_blue,
+.logo-mobile__circle_color_blue {
   left: 8px;
   top: 56%;
   background: #c8dbfb;
@@ -175,7 +179,7 @@ body {
   }
 
   .main__subtitle {
-    font: 500 18px/21px Roboto, sans-serif;
+    font: bold 18px/21px Roboto, sans-serif;
   }
 
   .main__button {
@@ -196,7 +200,7 @@ body {
   }
 
   .main__subtitle {
-    font: 500 16px/19px Roboto, sans-serif;
+    font: bold 16px/19px Roboto, sans-serif;
   }
 }
 
@@ -220,17 +224,17 @@ body {
     position: relative;
     display: inline-block;
     width: 25px;
-    height: 17px;
+    height: 11px;
     margin: auto;
     border-top: 3px solid #0056ec;
     border-bottom: 3px solid #0056ec;
   }
 
-  .link__burger:before {
+  .link__burger::before {
     content: "";
     position: absolute;
-    top: 7px;
-    left: 0px;
+    top: 4px;
+    left: 0;
     width: 100%;
     border-top: 3px solid #0056ec;
   }
@@ -286,7 +290,7 @@ body {
 
   .main__subtitle {
     margin: 0 0 25px 0;
-    font: 500 16px/19px Roboto, sans-serif;
+    font: bold 16px/19px Roboto, sans-serif;
   }
 }
 
